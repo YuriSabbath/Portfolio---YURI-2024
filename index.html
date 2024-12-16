@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/lightbox.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Yuri Gonçalves | Desenvolvedor Web</title>
+  </head>
+  <body>
+    <header class="header vh-100 text-center position-relative">
+      <div
+        class="text-container position-relative d-flex flex-column justify-content-center align-items-center h-100"
+      >
+        <h5 class="text-primary fs-3 fw-bold text-uppercase">Olá, Mundo!</h5>
+        <h1 id="typing-text" class="display-1 fw-bold text-white"></h1>
+
+        <p class="roles text-white text-uppercase fs-4">
+          <span>Desenvolvedor Web Front-End</span>
+        </p>
+
+        <a href="#about" class="btn btn-outline-light btn-lg mt-3">
+          <div class="d-flex">
+            <div class="me-3">
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="text-start">
+              <span>Mais sobre mim</span>
+            </div>
+          </div>
+        </a>
+
+        <div class="social d-flex gap-3 position-absolute">
+          <a href="#">
+            <i class="fab fa-linkedin fa-3x text-white"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-github fa-3x text-white"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Sobre -->
+    <section id="about" class="about bg-light py-5">
+      <div class="container">
+        <div class="text-center">
+          <h4 class="text-uppercase fw-bold text-primary">Sobre Mim</h4>
+          <hr class="w-25 mx-auto" />
+          <h2 class="mb-4">Deixe-me apresentar</h2>
+        </div>
+        <div class="about-content d-flex gap-6 align-items-center h-100">
+          <img
+            src="images/yuri.jpg"
+            alt="Foto de Yuri"
+            class="about-img img-fluid rounded-circle"
+          />
+          <p>
+            Desde criança, sempre fui apaixonado por tecnologia e como ela pode transformar a
+            realidade ao nosso redor. Esse interesse me levou a me formar como Técnico em
+            Desenvolvimento de Sistemas pela ETEC João Belarmino, onde aprendi as bases de
+            programação, desenvolvimento de software e linguagens como
+            <strong>HTML, CSS, JavaScript</strong> e <strong>Banco de Dados</strong>. <br /><br />
+            Durante minha formação, também adquiri habilidades importantes como o uso de
+            <strong>Git</strong> para controle de versão e a implementação de
+            <strong>metodologias ágeis</strong>, como Scrum. Essas experiências me ajudaram a
+            entender a importância da colaboração e da eficiência no desenvolvimento de projetos.
+            <br /><br />
+            Hoje, sou um desenvolvedor front-end com experiência prática na criação de interfaces
+            ágeis e funcionais. Tenho trabalhado como freelancer, buscando sempre novos desafios que
+            me ajudem a evoluir como profissional e entregar soluções inovadoras para os projetos
+            com os quais me envolvo.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Perfil e Habilidades -->
+    <section class="profile my-6">
+      <div class="container">
+        <div class="row g-6">
+          <!-- Adicionando o gap entre as colunas -->
+          <!-- Coluna de Perfil -->
+          <div class="col-md-6">
+            <h3 class="text-uppercase fw-bold mb-3">Perfil</h3>
+            <p>
+              Desenvolvedor Front-End com experiência em HTML, CSS, JavaScript e Bootstrap.
+              Comprometido em criar interfaces rápidas, responsivas e centradas no usuário. <br />
+              Busco oportunidades para aplicar minhas habilidades e contribuir para o
+              desenvolvimento de soluções inovadoras.
+            </p>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item mb-3">
+                <h5 class="text-transform">
+                  <i class="fas fa-user text-primary"></i> Nome Completo:
+                </h5>
+                <p>Yuri Franco Gonçalves</p>
+              </li>
+              <li class="list-group-item mb-3">
+                <h5 class="text-transform">
+                  <i class="fas fa-calendar text-primary"></i> Data de Nascimento:
+                </h5>
+                <p>25/03/2005</p>
+              </li>
+              <li class="list-group-item mb-3">
+                <h5 class="text-transform">
+                  <i class="fas fa-building text-primary"></i> Posição Atual:
+                </h5>
+                <p>Desenvolvedor Front-End Freelancer</p>
+              </li>
+              <li class="list-group-item mb-3">
+                <h5 class="text-transform"><i class="fas fa-envelope text-primary"></i> Email:</h5>
+                <p>yurifrancogoncalves@gmail.com</p>
+              </li>
+              <li class="list-group-item mb-3">
+                <h5 class="text-transform">
+                  <i class="fas fa-phone-alt text-primary"></i> Contato:
+                </h5>
+                <p>19 99648-1172</p>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Coluna de Habilidades -->
+          <div class="col-md-6">
+            <h3 class="text-uppercase fw-bold mb-4">Habilidades</h3>
+            <ul class="list-unstyled">
+              <li class="mb-3">
+                <h5><i class="fas fa-code text-primary"></i> Desenvolvimento Front-end</h5>
+                <p>
+                  Utilização de HTML5, CSS3 e JavaScript para criar interfaces modernas e
+                  responsivas.
+                </p>
+              </li>
+              <li class="mb-3">
+                <h5><i class="fas fa-layer-group text-primary"></i> Frameworks e Bibliotecas</h5>
+                <p>
+                  Utilização de Bootstrap para agilizar o design de páginas responsivas e
+                  visualmente atraentes.
+                </p>
+              </li>
+              <li class="mb-3">
+                <h5><i class="fas fa-server text-primary"></i> Ferramentas e Versionamento</h5>
+                <p>
+                  Experiência em Git, GitHub, Visual Studio Code e Figma para controle de versão e
+                  prototipação.
+                </p>
+              </li>
+              <li class="mb-3">
+                <h5><i class="fas fa-users text-primary"></i> Metodologias Ágeis</h5>
+                <p>
+                  Conhecimento em Scrum, XP e Lean para gestão eficiente de projetos e entregas.
+                </p>
+              </li>
+              <li class="mb-3">
+                <h5><i class="fas fa-palette text-primary"></i> UI/UX Design</h5>
+                <p>Prática em design responsivo e no aprimoramento da experiência do usuário.</p>
+              </li>
+              <li class="mb-3">
+                <h5><i class="fas fa-search text-primary"></i> Otimização</h5>
+                <p>
+                  Conhecimento em acessibilidade web e SEO básico para melhorar a visibilidade e
+                  usabilidade.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Botões de Ação -->
+        <div class="row mt-5 text-center">
+          <div class="col-12">
+            <a
+              href="mailto:yurifrancogoncalves@gmail.com"
+              class="btn btn-outline-dark btn-lg text-uppercase px-5 mx-3 my-2"
+              >Contrate-me</a
+            >
+            <a href="link-do-cv.pdf" class="btn btn-dark btn-lg text-uppercase px-5 mx-3 my-2"
+              >Baixar CV</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfólio -->
+    <section class="portolio py-5 bg-light">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h4 class="text-uppercase fw-bold text-primary">Portfólio</h4>
+          <hr class="w-25 mx-auto" />
+          <h2 class="mb-4">Confira meu trabalho</h2>
+          <p class="lead">Aqui está uma pequena amostra dos meus projetos.</p>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <div class="project shadow-lg rounded-5">
+              <a
+                href="images/project1.jpg"
+                data-lightbox="images"
+                data-title="Página de Destino Clipboard"
+              >
+                <img src="images/project1.jpg" alt="" class="img-fluid rounded-3" />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="project shadow-lg rounded-5">
+              <a href="images/project2.jpg" data-lightbox="images" data-title="Site Loop Studios">
+                <img src="images/project2.jpg" alt="" class="img-fluid rounded-3" />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="project shadow-lg rounded-5">
+              <a href="images/project3.jpg" data-lightbox="images" data-title="Site Shortly">
+                <img src="images/project3.jpg" alt="" class="img-fluid rounded-3" />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="project shadow-lg rounded-5">
+              <a href="images/project4.jpg" data-lightbox="images" data-title="Site Flyo">
+                <img src="images/project4.jpg" alt="" class="img-fluid rounded-3" />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="project shadow-lg rounded-5">
+              <a href="images/project5.jpg" data-lightbox="images" data-title="Site Boomark">
+                <img src="images/project5.jpg" alt="" class="img-fluid rounded-3" />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="project shadow-lg rounded-5">
+              <a href="images/project6.jpg" data-lightbox="images" data-title="Layout de Grade">
+                <img src="images/project6.jpg" alt="" class="img-fluid rounded-3" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Serviços -->
+    <section
+      class="services text-bg-dark py-5 position-relative"
+      style="background-attachment: fixed; background-size: cover; background-position: center"
+    >
+      <div class="container position-relative">
+        <div class="text-center mb-5">
+          <h4 class="text-uppercase fw-bold text-primary">Serviços</h4>
+          <hr class="w-25 mx-auto" />
+          <h2 class="mb-4">O Que Posso Fazer Por Você?</h2>
+          <p class="lead">Soluções personalizadas para atender às necessidades do seu negócio.</p>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-4 mb-4">
+            <i class="fas fa-laptop-code fa-3x text-primary mb-3"></i>
+            <h3 class="fs-5 fw-bold">Criação de Sistemas</h3>
+            <p class="fs-6">
+              Criação de soluções sob medida, com foco em performance e escalabilidade para o seu
+              negócio.
+            </p>
+          </div>
+          <div class="col-md-4 mb-4">
+            <i class="fas fa-pencil-alt fa-3x text-primary mb-3"></i>
+            <h3 class="fs-5 fw-bold">Design de Interfaces</h3>
+            <p class="fs-6">
+              Desenvolvimento de interfaces intuitivas, responsivas e centradas no usuário.
+            </p>
+          </div>
+          <div class="col-md-4 mb-4">
+            <i class="fas fa-cogs fa-3x text-primary mb-3"></i>
+            <h3 class="fs-5 fw-bold">Integração de Sistemas</h3>
+            <p class="fs-6">
+              Integração de diferentes plataformas para otimizar processos e melhorar a comunicação
+              interna.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats py-5 text-bg-secondary">
+      <div class="container">
+        <div class="row justify-content-center g-0">
+          <div class="col-md-4 col-lg-2 mb-5 text-center">
+            <div class="stat">
+              <i class="fas fa-laptop-code fa-3x mb-3"></i>
+              <p class="fs-1">1</p>
+              <h3 class="fs-6 text-uppercase">Certificação Técnica</h3>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-2 mb-5 text-center">
+            <div class="stat">
+              <i class="fas fa-graduation-cap fa-3x mb-3"></i>
+              <p class="fs-1">1</p>
+              <h3 class="fs-6 text-uppercase">Graduação (em andamento)</h3>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-2 mb-5 text-center">
+            <div class="stat">
+              <i class="fas fa-check-circle fa-3x mb-3"></i>
+              <p class="fs-1">C2</p>
+              <h3 class="fs-6 text-uppercase">Inglês (EF Set)</h3>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-2 mb-5 text-center">
+            <div class="stat">
+              <i class="fas fa-project-diagram fa-3x mb-3"></i>
+              <p class="fs-1">20+</p>
+              <h3 class="fs-6 text-uppercase">Projetos</h3>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-2 mb-5 text-center">
+            <div class="stat">
+              <i class="fas fa-clock fa-3x mb-3"></i>
+              <p class="fs-1">3+</p>
+              <h3 class="fs-6 text-uppercase">Anos de experiência</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="contact text-bg-dark bg-gradient py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <div class="text-center mb-5">
+              <h4 class="text-uppercase fw-bold text-primary">Contato</h4>
+              <hr class="w-25 mx-auto" />
+              <h2 class="mb-4">Adoraria ouvir de você.</h2>
+              <p class="lead">
+                Se você deseja entrar em contato ou tem alguma dúvida, estou à disposição para
+                conversar.
+              </p>
+            </div>
+            <form>
+              <div class="mb-5">
+                <input
+                  type="text"
+                  class="form-control bg-transparent border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-white"
+                  placeholder="Nome"
+                />
+              </div>
+              <div class="mb-5">
+                <input
+                  type="email"
+                  class="form-control bg-transparent border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-white"
+                  placeholder="E-mail"
+                />
+              </div>
+              <div class="mb-5">
+                <textarea
+                  class="form-control bg-transparent border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-white"
+                  placeholder="Mensagem"
+                ></textarea>
+              </div>
+              <div class="mb-5 d-grid">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- Rodapé -->
+        <div class="d-flex mt-5 justify-content-between">
+          <p class="flex-grow-1">Copyright &copy; 2024 | Feito por Yuri Gonçalves</p>
+
+          <div class="hstack gap-3">
+            <a class="text-decoration-none" href="#">
+              <i class="fab fa-linkedin fa-2x text-white"></i>
+            </a>
+            <a class="text-decoration-none" href="#">
+              <i class="fab fa-github fa-2x text-white"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
