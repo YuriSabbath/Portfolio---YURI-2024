@@ -42,10 +42,10 @@
         </a>
 
         <div class="social d-flex gap-3 position-absolute">
-          <a href="#">
+          <a href="https://www.linkedin.com/in/yurifrancogoncalves/">
             <i class="fab fa-linkedin fa-3x text-white"></i>
           </a>
-          <a href="#">
+          <a href="https://github.com/YuriSabbath">
             <i class="fab fa-github fa-3x text-white"></i>
           </a>
         </div>
@@ -186,9 +186,13 @@
               class="btn btn-outline-dark btn-lg text-uppercase px-5 mx-3 my-2"
               >Contrate-me</a
             >
-            <a href="link-do-cv.pdf" class="btn btn-dark btn-lg text-uppercase px-5 mx-3 my-2"
-              >Baixar CV</a
+            <a
+              href="./Curriculo-Yuri.docx"
+              class="btn btn-dark btn-lg text-uppercase px-5 mx-3 my-2"
+              download
             >
+              Baixar CV
+            </a>
           </div>
         </div>
       </div>
@@ -345,12 +349,18 @@
                 conversar.
               </p>
             </div>
-            <form>
+            <form
+              action="https://formsubmit.co/yurifrancogoncalves@gmail.com"
+              method="POST"
+              target="_blank"
+            >
               <div class="mb-5">
                 <input
                   type="text"
                   class="form-control bg-transparent border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-white"
                   placeholder="Nome"
+                  name="nome"
+                  required
                 />
               </div>
               <div class="mb-5">
@@ -358,12 +368,16 @@
                   type="email"
                   class="form-control bg-transparent border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-white"
                   placeholder="E-mail"
+                  name="email"
+                  required
                 />
               </div>
               <div class="mb-5">
                 <textarea
                   class="form-control bg-transparent border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-white"
                   placeholder="Mensagem"
+                  name="mensagem"
+                  required
                 ></textarea>
               </div>
               <div class="mb-5 d-grid">
